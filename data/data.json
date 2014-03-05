@@ -1,0 +1,52 @@
+{
+	"schoolList":[
+		{"id":"old-waterloo-cell","schoolId":"waterlooOld","schoolName":"University of Waterloo",       "schoolYear":"(2001)","image":"slogo/uw.png"},
+		{"id":"laurier-cell",	  "schoolId":"laurier",    "schoolName":"Wilfrid Laurier University",  "schoolYear":"",      "image":"slogo/laurier.png"},
+		{"id":"mcmaster-cell",    "schoolId":"mcmaster",   "schoolName":"McMaster University",          "schoolYear":"",      "image":"slogo/mcmaster.png"},
+		{"id":"ottawa-cell",      "schoolId":"ottawa",     "schoolName":"University of Ottawa",         "schoolYear":"",      "image":"slogo/ottawa.png"},
+		{"id":"alberta-cell",      "schoolId":"alberta",     "schoolName":"University of Alberta",         "schoolYear":"",      "image":"slogo/ua.png"},
+		{"id":"uwo-cell",         "schoolId":"uwo",        "schoolName":"University of Western Ontario","schoolYear":"",      "image":"slogo/uwo.png"},
+		{"id":"toronto-cell",	  "schoolId":"toronto",    "schoolName":"University of Toronto",        "schoolYear":"",      "image":"slogo/ut.png"},
+		{"id":"new-waterloo-cell","schoolId":"waterlooNew","schoolName":"University of Waterloo",       "schoolYear":"(2013)","image":"slogo/uw.png"}
+	],
+
+	"waterlooNew":[
+		{"description":"Last Name",    "inputId":"last-name-input",    "inputType":"text",  "dataName":"lastName"    ,"isSelect":false},
+		{"description":"Given Name",   "inputId":"given-name-input",   "inputType":"text",  "dataName":"givenName"   ,"isSelect":false},
+		{"description":"Middle Name",  "inputId":"middle-name-input",  "inputType":"text",  "dataName":"middleName"  ,"isSelect":false},
+		{"description":"Student ID",   "inputId":"student-id-input",   "inputType":"number","dataName":"studentID"   ,"isSelect":false},
+		{"description":"Program",      "inputId":"program-input",      "inputType":"text",  "dataName":"program"     ,"isSelect":true,
+		"option":[
+			{"optionValue":"MATHEMATICS",	"optionText":"Mathematics (excl. CFM)"},
+			{"optionValue":"VP ADMIN",		"optionText":"Comp. and Finan. Mgmt."},
+			{"optionValue":"ARTS",			"optionText":"Arts"},
+			{"optionValue":"SCIENCE",		"optionText":"Science"},
+			{"optionValue":"HEALTH SCIENCE","optionText":"Health Science"},
+			{"optionValue":"ENVIRONMENT",   "optionText":"Environment"},
+			{"optionValue":"ENGINEERING",   "optionText":"Engineering (excl. SE)"},
+			{"optionValue":"VP ADMIN",      "optionText":"Software Engineering"},
+			{"optionValue":"ARCHITECTURE",  "optionText":"Architecture"},
+			{"optionValue":"",  	  		"optionText":"Others"}
+		]},
+		{"description":"Status",       "inputId":"status-input",	   "inputType":"text",  "dataName":"status"      ,"isSelect":true,
+		"option":[
+			{"optionValue":"FULL TIME UNDERGRADUATE","optionText":"Full time undergraduate"},
+			{"optionValue":"FULL TIME GRADUATE",	 "optionText":"Full time graduate"},
+			{"optionValue":"FULL TIME GRADUATE",	 "optionText":"Part time undergraduate"},
+			{"optionValue":"FULL TIME GRADUATE",	 "optionText":"Part time graduate"},
+			{"optionValue":"FUTURE STUDENT",		 "optionText":"I am not in uWaterloo!"},
+			{"optionValue":"",					   	 "optionText":"Others"}
+		]},
+		{"description":"Admitted Year","inputId":"admitted-year-input","inputType":"number","dataName":"admittedYear","isSelect":false},
+		{"description":"Photo",		   "inputId":"photo-input",		   "inputType":"file",  "dataName":"photo"       ,"isSelect":false}
+	],
+	
+	"toronto":[
+		{"description":"Last Name",    "inputId":"last-name-input",    "inputType":"text",  "dataName":"lastName"    ,"isSelect":false},
+		{"description":"Given Name",   "inputId":"given-name-input",   "inputType":"text",  "dataName":"givenName"   ,"isSelect":false},
+		{"description":"Student NO",   "inputId":"student-no-input",   "inputType":"number","dataName":"studentNo"   ,"isSelect":false},
+		{"description":"UTORid",       "inputId":"UTORid-input",       "inputType":"text",  "dataName":"UTORid"      ,"isSelect":false},
+		{"description":"Library ID",   "inputId":"library-id-input",   "inputType":"number","dataName":"libraryId"   ,"isSelect":false},
+		{"description":"Photo",		   "inputId":"photo-input",		   "inputType":"file",  "dataName":"photo"       ,"isSelect":false}
+	]
+}

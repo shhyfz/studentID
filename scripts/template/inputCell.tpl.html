@@ -1,0 +1,25 @@
+<% if(isSelect){  %>
+
+<div class="input-cell">
+	<div><%= description %></div>
+	<div class="input-cell-value"></div>
+	<div id="<%= inputId %>" class="input-cell-input hidden" data="<%= dataName %>">
+		<!-- insert option here -->
+		<!-- <div class="input-cell-option" value=""></div> -->
+	</div>
+</div>
+<hr>
+
+
+<% }else{ %>
+
+<div class="input-cell">
+	<div><%= description %></div>
+	<div class="input-cell-value"></div>
+	<% if(description!="Photo"){ %>
+	<input id="<%= inputId %>" class="input-cell-input hidden" type="<%= inputType %>" data="<%= dataName %>"></input>
+	<% } %>
+</div>
+<hr>
+
+<% } %>

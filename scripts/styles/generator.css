@@ -1,0 +1,193 @@
+#generator {
+	width:100%;
+	height:100%;
+	background-color:#e6e6e6;
+}
+
+.input-cell {
+	width:100%;
+	height:90px;
+}
+
+.input-cell:hover {
+	background-color:#eaf5f8;
+	-webkit-transition:ease .2s;
+	cursor:pointer;
+}
+
+.input-cell > div:first-child {
+	float:left;
+	font-family:gMedium;
+	font-size: 25px;
+	padding-top: 30px;
+	padding-left:30px;
+	color:#515151;
+	-webkit-transition:ease .3s;
+	padding-bottom:15px;
+}
+
+.input-cell-value {
+	float:left;
+	font-family:gBook;
+	color:#000;
+	padding-left:35px;
+	font-size:25px;
+	padding-top: 30px;
+}
+
+.input-cell-input {
+	float:left;
+	font-family:gMedium;
+	color: grey;
+	font-size:30px;
+	background-color:#fff;
+	border:none;
+	color:#000;
+	position:static;
+	text-align:center;
+	border:none;
+	width: 100%;
+	
+}
+
+.input-cell > .input-cell-input > .input-cell-option {
+	text-align:center;
+	-webkit-transition: ease 0.5s;
+	font-family: gLight;
+	font-size: 30px;
+	width: 100%;
+	background-color: #626262;
+	color: white;
+	padding-left:0;
+	padding: 5px 0px 5px 0px;
+	overflow: hidden;
+}
+
+.input-cell > .input-cell-input > .input-cell-option:hover {
+	background-color: #454545;
+	color: #ffffff;
+	-webkit-transition: ease-in-out 0.1s;	
+}
+
+.input-cell > .input-cell-input > .input-cell-option.option-selected {
+	font-weight:bold;
+	color: #51eb18;
+}
+
+#generate {
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	height: 30px;
+	background-color: grey;
+	color: white;
+	font-size: 16px;
+	margin-left: 3px;
+	margin-right: 3px;
+	min-width: 450px;
+}
+
+#policytext {
+	text-align: justify;
+	font-size: 12px;
+	font-family: gBook;
+	height: 70px;
+	overflow: scroll;
+	background-color: #fff;
+	color: grey;
+	padding: 10px 20px 10px 20px;
+}
+
+#policy-cell {
+	background-color: white;
+	height: 130px;
+	overflow: hidden;
+	width: 100%;
+}
+
+/* feedback */
+
+#feedback_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .7;
+}
+
+#feedback_dialog
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 300px;
+	height: 100px;
+	width: 450px;
+	background-color: white;
+	text-align: center;
+	font-family: gBook;
+	overflow: hidden;
+}
+
+#feedback_close
+{
+	cursor: pointer;
+	position: absolute;
+	height: 70px;
+	width: 450px;
+}
+
+#feedback_title 
+{
+	font-family: gBold;
+	font-size: 15px;
+	height: 25px;
+	padding-top: 15px;
+}
+
+#feedback_info 
+{
+	font-family: gBook;
+	font-size: 20px;
+	color: grey;
+}
+
+#feedback_info a 
+{
+	color: red;
+	cursor: pointer;
+}
+
+#under_construction {
+	float: left;
+	text-align: center;
+	margin-top: 80px;
+	margin-left: 90px;
+	width: 230px;
+	font-size: 14px;
+	font-family: gBook;
+	color: grey;
+}
+
+#under_construction a {
+	text-decoration: none;
+	color: #66b936;
+}
+
+#under_construction a:hover {
+	text-decoration: none;
+	color: #32871a;
+	-webkit-transition: ease 0.2s;
+}
+
+#under_construction_image {
+	background-image: url(../../img/uc.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 550px;
+	height: 400px;
+	margin-left: 50px;
+}
